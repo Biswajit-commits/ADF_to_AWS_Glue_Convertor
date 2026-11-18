@@ -1,0 +1,17 @@
+{
+    "name": "SNF_TGT",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "Snowflake_Link",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "SnowflakeV2Table",
+        "schema": [],
+        "typeProperties": {
+            "schema": "DEV",
+            "table": "CUST"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
